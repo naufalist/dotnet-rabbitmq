@@ -22,7 +22,7 @@ namespace RabbitMQConsumer
             using var channel = connection.CreateModel();
 
             // consume
-            HeaderExchangeConsumer.Consume(channel);
+            FanoutExchangeConsumer.Consume(channel);
         }
     }
 }
