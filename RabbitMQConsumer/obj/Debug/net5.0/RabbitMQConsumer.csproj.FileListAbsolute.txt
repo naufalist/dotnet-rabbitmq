@@ -1,0 +1,17 @@
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.exe
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.deps.json
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.runtimeconfig.json
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.runtimeconfig.dev.json
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.dll
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\ref\RabbitMQConsumer.dll
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQConsumer.pdb
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Documents\VS Project\RabbitMQConsumer\bin\Debug\net5.0\RabbitMQ.Client.dll
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.AssemblyInfoInputs.cache
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.AssemblyInfo.cs
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.csproj.CoreCompileInputs.cache
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.dll
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\ref\RabbitMQConsumer.dll
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.pdb
+D:\Documents\VS Project\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.genruntimeconfig.cache
