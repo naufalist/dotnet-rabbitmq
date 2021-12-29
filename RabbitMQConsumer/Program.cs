@@ -22,7 +22,7 @@ namespace RabbitMQConsumer
             using var channel = connection.CreateModel();
 
             // consume
-            DirectExchangeConsumer.Consume(channel);
+            TopicExchangeConsumer.Consume(channel);
         }
     }
 }

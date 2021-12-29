@@ -21,7 +21,7 @@ namespace RabbitMQProducer
             using var channel = connection.CreateModel();
 
             // publish
-            DirectExchangePublisher.Publish(channel);
+            TopicExchangeProducer.Publish(channel);
         }
     }
 }
