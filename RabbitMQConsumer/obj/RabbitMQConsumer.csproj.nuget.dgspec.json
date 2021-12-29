@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\VS Project\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {}
+    "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\VS Project\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {
+    "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\VS Project\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+        "projectUniqueName": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
         "projectName": "RabbitMQConsumer",
-        "projectPath": "D:\\Documents\\VS Project\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+        "projectPath": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\VS Project\\RabbitMQConsumer\\obj\\",
+        "outputPath": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
