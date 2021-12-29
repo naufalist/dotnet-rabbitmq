@@ -32,5 +32,4 @@ D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\Rabbit
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\ref\RabbitMQConsumer.dll
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.pdb
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.genruntimeconfig.cache
-D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.csproj.CopyComplete
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQConsumer\obj\Debug\net5.0\RabbitMQConsumer.csproj.AssemblyReference.cache
