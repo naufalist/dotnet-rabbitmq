@@ -35,3 +35,21 @@ D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\Rabbit
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\ref\RabbitMQProducer.dll
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.pdb
 D:\Documents\VS Project\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.genruntimeconfig.cache
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.exe
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.deps.json
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.runtimeconfig.json
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.runtimeconfig.dev.json
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\ref\RabbitMQProducer.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQProducer.pdb
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\bin\Debug\net5.0\RabbitMQ.Client.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.AssemblyInfoInputs.cache
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.AssemblyInfo.cs
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.csproj.CopyComplete
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\ref\RabbitMQProducer.dll
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.pdb
+D:\Documents\GitHub\dotnet-rabbitmq\RabbitMQProducer\obj\Debug\net5.0\RabbitMQProducer.genruntimeconfig.cache

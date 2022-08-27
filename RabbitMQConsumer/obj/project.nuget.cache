@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fieLDCwCgp6tD2aSHDEh+ziMp66sMA3pM5RQ2eN8qNWfpRwij2Q2FguPnEKGgdjdTUz2tcz7CjS9CSA3PRVyQg==",
+  "dgSpecHash": "7oKkqZdOM8JzEYQDLVttwpzYSLiNK7uP4dGsCa4441/wxLfyA8QwiVH9q6Pz/CvagnnAq1DqRE7bdNq7n1G0Lg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",

@@ -2,9 +2,7 @@
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace RabbitMQConsumer
 {
@@ -12,8 +10,17 @@ namespace RabbitMQConsumer
     {
         public static void Consume(IModel channel)
         {
-            // declare exchange
-            channel.ExchangeDeclare("demo-direct-exchange", ExchangeType.Direct);
+            // declare exchange with name "demo-direct-exchange"
+            channel.ExchangeDeclare(
+                exchange: "demo-direct-exchange",
+                type: ExchangeType.Direct,
+                durable: true,
+                autoDelete: false,
+                arguments: new Dictionary<string, object>
+                {
+                    {"x-message-ttl", 30000 } // ttl for the message in miliseconds (30 secs)
+                }
+            );
 
             // declare queue with name "demo-direct-queue"
             channel.QueueDeclare(
@@ -25,10 +32,19 @@ namespace RabbitMQConsumer
             );
 
             // bind a queue to an exchange
-            channel.QueueBind("demo-direct-queue", "demo-direct-exchange", "account.init");
+            channel.QueueBind(
+                queue: "demo-direct-queue",
+                exchange: "demo-direct-exchange",
+                routingKey: "account.balance",
+                arguments: null
+            );
 
             // this will make consumer to fetch 10 messages at the time
-            channel.BasicQos(0, 10, false);
+            channel.BasicQos(
+                prefetchSize: 0,
+                prefetchCount: 10,
+                global: false
+            );
 
             // declare consumer
             var consumer = new EventingBasicConsumer(channel);
@@ -36,11 +52,16 @@ namespace RabbitMQConsumer
             {
                 var body = e.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine(message);
+                Console.WriteLine($"[{DateTime.Now}] Consumed: {message}");
             };
 
             // started consuming
-            channel.BasicConsume("demo-direct-queue", true, consumer);
+            channel.BasicConsume(
+                queue: "demo-direct-queue",
+                autoAck: true,
+                consumer: consumer
+            );
+
             Console.WriteLine("Consumer started");
             Console.ReadLine();
         }
