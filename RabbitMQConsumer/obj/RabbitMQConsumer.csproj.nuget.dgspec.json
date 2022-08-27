@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {}
+    "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {
+    "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
         "projectName": "RabbitMQConsumer",
-        "projectPath": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\VS Project\\dotnet-rabbitmq\\RabbitMQConsumer\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\dotnet-rabbitmq\\RabbitMQConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

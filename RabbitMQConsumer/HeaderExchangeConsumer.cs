@@ -12,10 +12,19 @@ namespace RabbitMQConsumer
     {
         public static void Consume(IModel channel)
         {
-            // declare exchange
-            channel.ExchangeDeclare("demo-header-exchange", ExchangeType.Headers);
+            // declare exchange with name "demo-header-exchange"
+            channel.ExchangeDeclare(
+                exchange: "demo-header-exchange",
+                type: ExchangeType.Headers,
+                durable: true,
+                autoDelete: false,
+                arguments: new Dictionary<string, object>
+                {
+                    {"x-message-ttl", 30000 } // ttl for the message in miliseconds (30 secs)
+                }
+            );
 
-            // declare queue with name "demo-topic-queue"
+            // declare queue with name "demo-header-queue"
             channel.QueueDeclare(
                 "demo-header-queue",
                 durable: true,
@@ -25,13 +34,25 @@ namespace RabbitMQConsumer
             );
 
             // create header
-            var header = new Dictionary<string, object> { { "account", "new" } };
+            var header = new Dictionary<string, object>
+            {
+                { "account", "initialize" }
+            };
 
             // bind a queue to an exchange
-            channel.QueueBind("demo-header-queue", "demo-header-exchange", string.Empty, header);
+            channel.QueueBind(
+                queue: "demo-header-queue",
+                exchange: "demo-header-exchange",
+                routingKey: string.Empty,
+                arguments: header
+            );
 
             // this will make consumer to fetch 10 messages at the time
-            channel.BasicQos(0, 10, false);
+            channel.BasicQos(
+                prefetchSize: 0,
+                prefetchCount: 10,
+                global: false
+            );
 
             // declare consumer
             var consumer = new EventingBasicConsumer(channel);
@@ -39,11 +60,16 @@ namespace RabbitMQConsumer
             {
                 var body = e.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine(message);
+                Console.WriteLine($"[{DateTime.Now}] Consumed: {message}");
             };
 
             // started consuming
-            channel.BasicConsume("demo-header-queue", true, consumer);
+            channel.BasicConsume(
+                queue: "demo-header-queue",
+                autoAck: true,
+                consumer: consumer
+            );
+
             Console.WriteLine("Consumer started");
             Console.ReadLine();
         }
